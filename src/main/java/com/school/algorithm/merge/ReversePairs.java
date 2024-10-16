@@ -27,7 +27,7 @@ public class ReversePairs {
         return numOfReversePairs(l, m) + numOfReversePairs(m + 1, r) + merge(l, m, r);
     }
 
-    //    1 3 7 1 2 3
+//    1 3 7 1 2 3
 //    a
 //          b
 //    2 + 1 + 1 = 4
